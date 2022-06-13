@@ -4,10 +4,12 @@ Title: "The Development of a Machine Learning Algorithm for Early Detection of V
 author: "Busayo Ajuwon"
 date: "17 August 2021"
 output:
-  
-  pdf_document: default
-  html_document: default
-  word_document: default
+ output:
+  pdf_document:
+    latex_engine: xelatex
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
 ---
 
 require(ggplot2)
