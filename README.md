@@ -71,7 +71,7 @@ scales = list(x = list(relation="free"),
 y = list(relation="free")))
 ```
 
-*Future selection using recursive feature elimination (rfe)*
+*Feature selection using recursive feature elimination (rfe)*
 ```{r warning=FALSE}
 set.seed(100)
 subsets <- c(1:5, 10, 15, 20)
