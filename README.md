@@ -1,6 +1,6 @@
 # HepB-LiveTest
 ---
-title: "The Development of a Machine Learning Algorithm for Early Detection of Viral Hepatitis B Infection in Nigerian patients"
+Title: "The Development of a Machine Learning Algorithm for Early Detection of Viral Hepatitis B Infection in Nigerian patients"
 author: "Busayo Ajuwon"
 date: "17 August 2021"
 output:
