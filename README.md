@@ -153,6 +153,15 @@ model_dt = train(HBSA ~ AST + WBC + Age + ALT , data=trainData, method='rpart', 
 model_dt
 
 fancyRpartPlot(model_dt$finalModel, sub = '')
+
+#Predict on test data
+
+predicted <- predict(model_dt, testData)
+head(predicted)
+
+#Compute the confusion matrix
+
+confusionMatrix(reference = testData$HBSA, data = predicted, mode='everything', positive='positive')
 ```
 
 Random Forest Analysis of HBsAg Immunoassay Results 
